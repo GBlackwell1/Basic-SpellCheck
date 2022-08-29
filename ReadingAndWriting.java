@@ -20,8 +20,9 @@ public class ReadingAndWriting {
 				englishDictionary[currentIndex] = currentString;
 				//Add and update
 				//TODO should i keep or remove, make decision when final
+				//TODO only adding to first index
 				System.out.println(englishDictionary[currentIndex]);
-				currentIndex = currentIndex++;
+				currentIndex++;
 				currentString = fileScanner.nextLine();
 			}
 		}
