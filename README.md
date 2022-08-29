@@ -10,3 +10,8 @@ A W.I.P. spell check application
 
 07/2022 
 - A back end that properly loads the user's TXT file disregarding any special characters and then converts each string to lower-case
+
+08/2022
+- Fixed bug with not reading user's text file
+- Now actually suggests words based on user's text file
+- Little jankety with what it suggests but there's only so much you can do since it doesn't know the tendencies of english language
